@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgba(25, 25, 25, 90%);
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+   padding: 25px 25px 25px 500px;
+}
+.facebook {
+    
+    align-items: center;
+    border-radius: 55px;
+    margin: 0px 15px 0px 15px;
+    background-color: white;
+    background-attachment: fixed;
+}

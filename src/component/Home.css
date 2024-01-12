@@ -1,7 +1,17 @@
 #leftBar{
     border: solid black 5px;
-    width: 15%;
+ /*   width: 15%; */
+    grid-area: leftPanel;
 }
 #helloWorld{
     text-align: center;
+}
+#description{
+    grid-area: mainPanel;
+}
+#mainBody{
+    display: grid;
+    grid-template-areas: 
+    'leftPanel mainPanel';
+   grid-gap: 10px;
 }

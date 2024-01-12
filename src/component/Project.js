@@ -3,7 +3,7 @@ import React from 'react'
 function Project(){
     return (
         <div>
-           <h1 style={{color: "red"}}>I intend to work on a dividend portolio tracker. </h1>
+           <h1 style={{color: "red"}}>This is my projects page</h1>
         </div>
     )
 }

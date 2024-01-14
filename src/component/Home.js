@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import chicago from '../images/chicago.jpeg';
 function Home() {
     const headerDiv = document.getElementById("header")
     const previousButton = document.getElementById('previous-button')
@@ -26,6 +27,9 @@ function Home() {
 */
     return(
     <div id="mainBody">
+        <div>
+            <img class="chicago-image" src={chicago}></img>
+        </div>
         <div id="leftBar">
             <h2 id="helloWorld">Guide</h2>
             <hr></hr>

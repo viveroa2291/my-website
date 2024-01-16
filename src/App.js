@@ -16,8 +16,6 @@ function App() {
       <Route path="/story" component={Story} exact/>
       <Route path="/project" component={Project} exact/>
     </Switch>
-     
-  
   );
 }
 

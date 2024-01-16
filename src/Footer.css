@@ -1,17 +1,40 @@
 .footer {
-    background-color: rgba(25, 25, 25, 90%);
-    margin-top: 100px;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 5rem; 
     left: 0;
     right: 0; 
-    bottom: 0;
-   padding: 25px 25px 25px 500px;
+    bottom: 0;  
+    height: 100px;
+    font-size: 14px;
 }
-.facebook {
-    
-    align-items: center;
-    border-radius: 55px;
-    margin: 0px 15px 0px 15px;
-    background-color: white;
-    background-attachment: fixed;
+.name, .latest {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    align-self: center;
+}
+.name:hover, .latest:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.latest {
+    margin-right: 5px;
+}
+.first-half {
+    display: flex;
+    flex-direction: row;
+    color: rgba(255,255,255,0.7);
+    align-self: center;
+}
+.copyright {
+    margin-left: 5px;
+    line-height: 0;
+    margin-top: 1rem;
+}
+.second-half {
+    color: rgba(255,255,255,0.7);
+    align-self: center;
 }

@@ -2,5 +2,12 @@
     margin-left: 15rem;
 }
 .twitter-link {
+    position: absolute;
     color: white;
+    background-color: white;
+    border-radius: 55px;
+    align-self: center;
+    height: 24px !important;
+    width: 24px !important;
+    right: 20rem !important;
 }

@@ -14,7 +14,7 @@ ReactDOM.render(
   <BrowserRouter> 
     <NavBar/>
     <App/>
-    <Footer/>
+    <Footer/> 
   </BrowserRouter>,
   document.getElementById('root')
 );

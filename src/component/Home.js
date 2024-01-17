@@ -16,7 +16,7 @@ function Home() {
             <div class="introduction">
                 <h2 class="helloWorld">Hi, I'm Adan.</h2>
                 <p>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you. </p>
-                <a href="/About">About Me</a>
+                <a class='about-link' href="/About">About Me</a>
             </div>
         </div>
         <hr></hr>

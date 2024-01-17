@@ -5,6 +5,13 @@
 .helloWorld{
     margin-top: 5rem;
 }
+.about-link {
+    color: black;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.about-link:hover {
+    color: black;
+}
 .introduction {
     margin-left: 30%;
     margin-top: 1rem;

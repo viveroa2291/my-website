@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import './CSS/Home.css'
 import chicago from '../images/chicago.jpeg';
 import coke from '../images/coke.jpg';
 function Home() {

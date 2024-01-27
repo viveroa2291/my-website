@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import './Contact.css';
+import './CSS/Contact.css';
 import {SocialIcon } from 'react-social-icons';
 
 

@@ -1,5 +1,6 @@
-import React from 'react'
-import './CSS/Home.css'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './CSS/Home.css';
 import chicago from '../images/chicago.jpeg';
 import coke from '../images/coke.jpg';
 function Home() {
@@ -11,18 +12,18 @@ function Home() {
     <div id="mainBody">
         <div class="top-bar">
             <span class='picture'>
-                <img class="chicago-image" src={chicago}></img>
+                <img class="chicago-image" src={chicago} alt='Chicago'></img>
             </span>
             <div class="introduction">
                 <h2 class="helloWorld">Hi, I'm Adan.</h2>
                 <p>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you. </p>
-                <a class='about-link' href="/About">About Me</a>
+                <Link class='about-link' to="/About">About Me</Link>
             </div>
         </div>
         <hr></hr>
         <div class="first-story">
             <span>
-                <img class="coke-image" src={coke}></img>
+                <img class="coke-image" src={coke} alt='Coca Cola'></img>
             </span>
             <span class="story-description">
                 <h2>Share A Coke Draws People In</h2>

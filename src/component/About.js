@@ -2,7 +2,6 @@ import React from 'react';
 import "./CSS/About.css";
 import badger from '../snapchat-lenses/badger.svg';
 import hoosier from '../snapchat-lenses/hoosier.svg';
-import happydad from "../snapchat-lenses/happy-dad.svg";
 import prospect from '../snapchat-lenses/prospect.svg';
 import sami from '../snapchat-lenses/sami.svg';
 import uwec from '../snapchat-lenses/uwec.svg';
@@ -20,6 +19,17 @@ import xavier from '../snapchat-lenses/xavier.svg';
 import uic from '../snapchat-lenses/uic.svg';
 import ohio from '../snapchat-lenses/ohio.svg';
 import minnesota from '../snapchat-lenses/minnesota.svg';
+import bear from '../snapchat-lenses/bear.svg';
+import lop from '../snapchat-lenses/lifeofpablo.svg';
+import yeezus from '../snapchat-lenses/yeezus.svg';
+import collegedropout from '../snapchat-lenses/college-dropout.svg';
+import mbdtf from '../snapchat-lenses/mbdtf.svg';
+import late from '../snapchat-lenses/late-registration.svg';
+import ksg from '../snapchat-lenses/ksg.svg';
+import ye from '../snapchat-lenses/ye.svg';
+import fullsend from '../snapchat-lenses/full-send.svg';
+import happydad from "../snapchat-lenses/happy-dad.svg";
+import wwe from '../snapchat-lenses/wwe.svg';
 import arizona from '../snapchat-lenses/arizona.svg';
 import usa from '../snapchat-lenses/usa.svg';
 import germany from '../snapchat-lenses/germany.svg';
@@ -48,7 +58,14 @@ function About() {
           <p>I have experience working with databases, cloud computing, git, and Api's. The technologies that I use for those are Springboot, AWS, and SQL.</p>
           <p>In my free time, I like to create Snapchat lenses.</p>
           <p>I'm living in Chicago, Illinois.</p>
-          <h2>My most read/watched articles/films</h2>
+          <h2>My most read articles</h2>
+          <h2>My most watched films</h2>
+          <div>
+            <span className='film'>
+              <iframe width="280" height="157.5" src="https://www.youtube.com/embed/5dZ_lvDgevk?si=EfmImR9pl5V51jwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <a className='film-link' href='https://www.youtube.com/watch?v=5dZ_lvDgevk'>In the age of AI</a>  
+            </span>
+          </div>
           <h2>Snapchat Lenses</h2>
           <p>Here are my Snapchat lenses</p>
           <div className='snapchat-lenses'>
@@ -57,16 +74,16 @@ function About() {
                 <a className='lense-link' href='72a31dbb-114e-403f-96e4-75791c94b375'>Wisconsin Badgers Hat</a> 
               </span>
               <span className='snap-code'>
+                <img className='lenses' src={sami} alt='Sami'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3f3b83e64d7a4b1e9b06e9c2e27b4ecc&metadata=01'>Sami's Birthday Crown</a>
+              </span>
+              <span className='snap-code'>
                 <img className='lenses' src={hoosier} alt='Hoosier'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c87bbf617ea84322abe17eaf7d96be3a&metadata=01'>Indiana Hoosier Hat</a>  
               </span>
               <span className='snap-code'>
                 <img className='lenses' src={prospect} alt="Prospect"/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a43f71255a884f9198adc6f2a66dfdb7&metadata=01'>Prospect Knights Hat</a>  
-              </span>
-              <span className='snap-code'>
-                <img className='lenses' src={sami} alt='Sami'/>
-                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3f3b83e64d7a4b1e9b06e9c2e27b4ecc&metadata=01'>Sami's Birthday Crown</a>
               </span>
               <span className='snap-code'>
                 <img className='lenses' src={uwec} alt='UWEC'/>
@@ -128,13 +145,53 @@ function About() {
                 <img className='lenses' src={minnesota} alt='University of Minnesota'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c3672ee982a54ec9ac86404ec6e71787&metadata=01'>University of Minnesota Hat</a>
               </span>
-              <span className='snap-code'> 
-                <img className='lenses' src={arizona} alt='Arizona State University'/>
-                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3e0e562cb2fb415f8fb82918a74f20a4&metadata=01'>Arizona State University Hat</a>
+              <span className='snap-code'>
+                <img className='lenses' src={bear} alt='Graduation bear'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=0ca61f5d5f454bd6872575d1e25abe5a&metadata=01'>Kanye West Graduation Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={lop} alt='Life of Pablo'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=ca1135ae6c46485b9e5ebb7188042cba&metadata=01'>Life of Pablo Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={yeezus} alt='Yeezus'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3aaff9ce79a14c29a66430fd02b4f259&metadata=01'>Yeezus Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={collegedropout} alt='College Dropout'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=9bb0b40ee55f4e0cb4bf4825772b105b&metadata=01'>College Dropout Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={mbdtf} alt='My Beautiful Dark Twisted Fantasy'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=b1ae5c22fb884083a6a050368775116d&metadata=01'>MBDTF Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={late} alt='Late Registration'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a824af2bd6f94c98a5e6f8d2758afbb7&metadata=01'>Late Registration Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={ksg} alt='Kids See Ghosts'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7538d27556d6415a9ce94d9a0ece5849&metadata=01'>Kids See Ghosts Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={ye} alt='Ye'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=f9fe340378c04c91862de6b5ca58e991&metadata=01'>Ye Hat</a>
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={fullsend} alt='Full Send'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=0ade7c50fbf14bbf894080cb3612d3ae&metadata=01'>Full Send Hat</a>
               </span>
               <span className='snap-code'>
                 <img className='lenses' src={happydad} alt="Happy Dad"/>
-                <a className='lense-link' href='https://t.snapchat.com/J8VevEwO'>Happy Dad Hat</a>  
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=aa3f4287eae14aad9511f6b79881effa&metadata=01'>Happy Dad Hat</a>  
+              </span>
+              <span className='snap-code'>
+                <img className='lenses' src={wwe} alt='WWE'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=1e4ab74821a64c09a5b65182f760a888&metadata=01'>WWE Hat</a>
+              </span>
+              <span className='snap-code'> 
+                <img className='lenses' src={arizona} alt='Arizona State University'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3e0e562cb2fb415f8fb82918a74f20a4&metadata=01'>Arizona State University Hat</a>
               </span>
               <span className='snap-code'> 
                 <img className='lenses' src={usa} alt="USA"/>

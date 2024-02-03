@@ -48,7 +48,7 @@ fetch('https://graph.facebook.com/me?fields=age_range,friends', {
     console.log(res);
 });
 function About() {
-  const[selectedOption, setSelectedOption] = useState('');
+  const[selectedOption, setSelectedOption] = useState('all');
 
   const handleSelectLense = (event) => {
     setSelectedOption(event.target.value);
@@ -73,7 +73,7 @@ function About() {
           </div>
           <h2>Snapchat Lenses</h2>
           <p>Here are my Snapchat lenses</p>
-          <select onChange={handleSelectLense}>
+          <select onChange={handleSelectLense} className='options'>
             <option value="all">All</option>
             <option value="college">College</option>
             <option value="high-school">High School</option>

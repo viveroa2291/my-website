@@ -29,9 +29,6 @@
     flex-direction: column;
     align-items: center;
 }
-.lense-title {
-    white-space: 'pre-wrap';
-}
 .lense-link {
     display: block;
     font-family: 'Courier New', Courier, monospace;

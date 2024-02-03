@@ -57,3 +57,18 @@ hr{
 .story-description {
     margin-left: 3rem;
 }
+.next-stories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: 15rem;
+    width: 65%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.thumbnails {
+    height: 150px;
+}
+.threads {
+    padding: 0 5px;
+}

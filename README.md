@@ -1,3 +1,27 @@
+# my-website
+A personalized web page created by me that includes all the links to my social, threads, code, or other forums. A blog themed website that contains details about myself and stories that I have written in Medium.
+
+# Tech used: ![ReactBadge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+My learning was focused on making a simple UI that resembled a blog style them with a smooth UX bundled with articles that I have written myself. 
+
+# Optimizations
+
+When I improve this project, I would start adding a dark mode theme and a different language options. I would like to implement some api's that root to my articles on Medium.
+
+# Lessons Learned:
+
+<ul>
+ <li>Implementing the site in React</li>
+ <li>Implementing a filter with a dropdown list for my lenses and understanding the onchange feature.</li>
+</ul>
+
+# More Projects
+<a href="https://viveroa2291.github.io/Cancun/">Cancun Mexican Grill</a>
+<br></br>
+<a href="https://viveroa2291.github.io/Developer-Site/">Developer Site</a>
+<br></br>
+<a href="https://viveroa2291.github.io/Tic-Tac-Toe/">Tic Tac Toe Site</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,5 +92,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# my-website
-# my-website

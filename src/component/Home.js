@@ -37,17 +37,18 @@ function Home() {
         <div className='next-stories'>
             <span>
                 <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
-                <p>Java</p>
+                <p className='category'>Java</p>
                 <h5>Object Oriented Programming</h5>
+                <p>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
             </span>
             <span>
                 <img className='thumbnails threads' src={threads} alt="Object Oriented Programming"/>
-                <p>Java</p> 
+                <p className='category'>Java</p> 
                 <h5>Threads</h5>
             </span>
             <span>
                 <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
-                <p>Java</p>
+                <p className='category'>Java</p>
                 <h5>Exceptions</h5>
             </span>
         </div>

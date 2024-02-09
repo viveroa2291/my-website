@@ -5,11 +5,8 @@ import chicago from '../images/chicago.jpeg';
 import coke from '../images/coke.jpg';
 import oop from '../thumbnails/oop.png';
 import threads from '../thumbnails/threads.png';
+import interfaces from '../thumbnails/interface.png';
 function Home() {
-/*
-                <p>Coke has been a very popular drink around the world for a very long time, and the reason why is because of its advertisement techniques. Its Unique Selling Proposition (USP), “Share A Coke” reaches out to a larger audience, because when you purchase the drink, you can get another one and share it with another person even if they’re not much of a coke drinker. Pepsi, on the other hand is very similar to coke, taste wise, but struggles on sales because it doesn’t reach out to a larger audience as coke does. They both may be alike, but sharing the product out to a different group of people is just a smarter strategy on selling your product. Many different consumors purchase coke even though it may not be the most healthiest drink out there, it’s mostly for the taste.</p>
-                <p>Coke has made their company better in sales with their Unique Selling Proposition. Regardless of how many drinks are similar to coke, Coke remains on top and its advertising strategies dominate others. The company makes money by catching the consumers eye and having them share their product to others. That is a very successful USP.</p>
-*/
     return(
     <div id="mainBody">
         <div class="top-bar">
@@ -25,7 +22,7 @@ function Home() {
         <hr></hr>
         <div class="first-story">
             <span>
-                <img class="coke-image" src={coke} alt='Coca Cola'></img>
+                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'></img></a>
             </span>
             <span class="story-description">
                 <h2>Share A Coke Draws People In</h2>
@@ -36,13 +33,14 @@ function Home() {
         <hr></hr>
         <div className='next-stories'>
             <span>
-                <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
+               <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='thumbnails' src={oop} alt="Object Oriented Programming"/></a> 
                 <p className='category'>Java</p>
-                <h5>Object Oriented Programming</h5>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'>Object Oriented Programming</a></h5>
                 <p>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
+                <p>Last updated: 4 Feb 2024 </p>
             </span>
             <span>
-                <img className='thumbnails threads' src={threads} alt="Object Oriented Programming"/>
+                <img className='thumbnails' src={threads} alt="Object Oriented Programming"/>
                 <p className='category'>Java</p> 
                 <h5>Threads</h5>
             </span>
@@ -55,21 +53,24 @@ function Home() {
         <hr></hr>
         <div className='next-stories'>
             <span>
-                <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
-                <p>Java</p>
-                <h5>Object Oriented Programming</h5>
+                <a href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'><img className='thumbnails' src={interfaces} alt="Object Oriented Programming"/></a>
+                <p className='category'>Java</p>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'>Interfaces</a></h5>
+                <p>In the realm of Java Development, interfaces plays a pivotal role in how classes implement functionality.</p>
+                <p>Last updated: 8 Feb 2024</p>
             </span>
             <span>
                 <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
-                <p>Java</p> 
-                <h5>Threads</h5>
+                <p className='category'>Java</p> 
+                <h5>Java Virtual Machine (JVM)</h5>
             </span>
             <span>
                 <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
-                <p>Java</p>
-                <h5>Exceptions</h5>
+                <p className='category'>Java</p>
+                <h5>Abstract Classes</h5>
             </span>
         </div>
+        {/*
         <hr></hr>
         <div className='next-stories'>
             <span>
@@ -196,6 +197,7 @@ function Home() {
                 <h5>Exceptions</h5>
             </span>
         </div>
+        */}
         <hr></hr>
     </div>
     );

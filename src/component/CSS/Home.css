@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 .helloWorld{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .about-link {
     color: black;
@@ -26,7 +26,7 @@ hr{
 .picture {
     position: absolute;
     margin-left: 17.5%;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-right: 1rem;
     height: 150px;
     width: 150px;
@@ -52,7 +52,7 @@ hr{
     margin-right: auto;
 }
 .coke-image {
-    height: 300px;
+    height: 325px;
 }
 .story-description {
     margin-left: 3rem;
@@ -68,7 +68,16 @@ hr{
 }
 .thumbnails {
     height: 150px;
+    border-radius: 5px 5px 0 0;
 }
-.threads {
-    padding: 0 5px;
+.category {
+    margin-top: 1rem;
+    color:  rgb(0, 153, 213);
+}
+.title-link {
+    color: black;
+}
+.title-link:hover {
+    text-decoration: none;
+    color: black;
 }

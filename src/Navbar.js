@@ -4,7 +4,7 @@ import {SocialIcon } from 'react-social-icons';
 import './navbar.css';
 function NavBar() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='navigation-bar'>
+        <Navbar collapseOnSelect expand="lg" variant="dark" className='navigation-bar'>
             <Navbar.Brand className='main-link' href='/'>Adan Vivero</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">

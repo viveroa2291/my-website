@@ -6,6 +6,9 @@ import coke from '../images/coke.jpg';
 import oop from '../thumbnails/oop.png';
 import threads from '../thumbnails/threads.png';
 import interfaces from '../thumbnails/interface.png';
+import exceptions from '../thumbnails/exceptions.png';
+import jvm from '../thumbnails/jvm.png';
+import abstract from '../thumbnails/abstract.png';
 function Home() {
     return(
     <div id="mainBody">
@@ -15,8 +18,8 @@ function Home() {
             </span>
             <div class="introduction">
                 <h2 class="helloWorld">Hi, I'm Adan.</h2>
-                <p>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you. </p>
-                <Link class='about-link' to="/About">About Me</Link>
+                <p className='my-story'>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you. </p>
+                <Link className='about-link' to="/About">About Me</Link>
             </div>
         </div>
         <hr></hr>
@@ -25,8 +28,8 @@ function Home() {
                 <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'></img></a>
             </span>
             <span class="story-description">
-                <h2>Share A Coke Draws People In</h2>
-                <p>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
+                <h2 className='main-header'>Share A Coke Draws People In</h2>
+                <p className='main-story'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
                 <p>Last updated: 22 Oct 2015</p>
             </span>
         </div>
@@ -40,14 +43,16 @@ function Home() {
                 <p>Last updated: 4 Feb 2024 </p>
             </span>
             <span>
-                <img className='thumbnails' src={threads} alt="Object Oriented Programming"/>
+                <img className='thumbnails' src={threads} alt="Threads"/>
                 <p className='category'>Java</p> 
                 <h5>Threads</h5>
+                <p>Coming soon...</p>
             </span>
             <span>
-                <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
+                <img className='thumbnails' src={exceptions} alt="Exceptions"/>
                 <p className='category'>Java</p>
                 <h5>Exceptions</h5>
+                <p>Coming soon...</p>
             </span>
         </div>
         <hr></hr>
@@ -60,14 +65,16 @@ function Home() {
                 <p>Last updated: 8 Feb 2024</p>
             </span>
             <span>
-                <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
+                <img className='thumbnails' src={jvm} alt="Java Virtual Machine"/>
                 <p className='category'>Java</p> 
                 <h5>Java Virtual Machine (JVM)</h5>
+                <p>Coming soon...</p>
             </span>
             <span>
-                <img className='thumbnails' src={oop} alt="Object Oriented Programming"/>
+                <img className='thumbnails' src={abstract} alt="Abstract Classes"/>
                 <p className='category'>Java</p>
                 <h5>Abstract Classes</h5>
+                <p>Coming soon...</p>
             </span>
         </div>
         {/*

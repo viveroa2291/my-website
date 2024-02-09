@@ -11,3 +11,18 @@
     width: 24px !important;
     right: 20rem !important;
 }
+.navigation-bar {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    top: 0;
+}
+@media (max-width: 800px) { 
+    .main-link {
+        margin-left: 1rem;
+    }
+    .links {
+        margin-left: 1rem;
+    }
+}

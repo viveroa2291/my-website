@@ -11,7 +11,7 @@ function Contact () {
             <h1 style={{textAlign: 'center'}}>Contact & Social Media information:</h1>
             <hr></hr>
             <Row className="inside">
-                <img src="/images/IMG_5999.jpeg" alt=""></img> 
+                <img className='header-image' src="/images/IMG_5999.jpeg" alt=""></img> 
                 <Col>
             
                 <p><SocialIcon url="https://www.facebook.com/adan.vivero97/" />   Facebook: <a href="https://www.facebook.com/adan.vivero97/">https://www.facebook.com/adan.vivero97/</a></p> 

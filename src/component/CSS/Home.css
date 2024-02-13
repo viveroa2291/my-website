@@ -13,8 +13,12 @@
     overflow: hidden;
 }
 .picture .chicago-image {
+    /*
     margin-top: -225px;
     margin-left: -375px;
+    */
+    margin-top: -285px;
+    margin-left: -467px; 
     transform: scale(.25);   
     border-radius: 50%; 
 }
@@ -150,7 +154,7 @@ hr{
         margin-top: 1rem;
         margin-bottom: 1rem; /* Adjust the spacing as needed */
     }
-    .next-stories hr {
+    .divider {
         display: none;
     }
 }

@@ -33,7 +33,7 @@ function Home() {
                 <p>Last updated: 22 Oct 2015</p>
             </span>
         </div>
-        <hr></hr>
+        <hr className='divider'></hr>
         <div className='next-stories'>
             <span>
                <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='thumbnails' src={oop} alt="Object Oriented Programming"/></a> 
@@ -55,7 +55,7 @@ function Home() {
                 <p>Coming soon...</p>
             </span>
         </div>
-        <hr></hr>
+        <hr className='divider'></hr>
         <div className='next-stories'>
             <span>
                 <a href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'><img className='thumbnails' src={interfaces} alt="Object Oriented Programming"/></a>
@@ -205,7 +205,7 @@ function Home() {
             </span>
         </div>
         */}
-        <hr></hr>
+        <hr className='divider'></hr>
     </div>
     );
 }

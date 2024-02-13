@@ -3,13 +3,11 @@
     border: solid black 5px;
     border-radius: 5%;
 }
-.body {
-     
-}
-.inside {
-    width: 1200px;
-}
 @media (max-width: 800px) {
+    .body {
+        display: flex;
+        flex-direction: row;
+    }
     .header-image {
         height: 200px;
         border: solid black 5px;

@@ -39,14 +39,15 @@ function Home() {
                <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='thumbnails' src={oop} alt="Object Oriented Programming"/></a> 
                 <p className='category'>Java</p>
                 <h5><a className='title-link' href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'>Object Oriented Programming</a></h5>
-                <p>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
+                <p className='description'>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
                 <p>Last updated: 4 Feb 2024 </p>
             </span>
             <span>
-                <img className='thumbnails' src={threads} alt="Threads"/>
+                <a href='https://medium.com/@adan_vivero/threads-in-java-programming-f5a196de8c72'><img className='thumbnails' src={threads} alt="Threads"/></a>
                 <p className='category'>Java</p> 
-                <h5>Threads</h5>
-                <p>Coming soon...</p>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/threads-in-java-programming-f5a196de8c72'>Threads</a></h5>
+                <p className='description'>Threads in Java are a key component in Java Programming, allowing programmers to execute multiple tasks at a time within a single program.</p>
+                <p>Last updated: 13 Feb 2024 </p>
             </span>
             <span>
                 <img className='thumbnails' src={exceptions} alt="Exceptions"/>
@@ -61,7 +62,7 @@ function Home() {
                 <a href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'><img className='thumbnails' src={interfaces} alt="Object Oriented Programming"/></a>
                 <p className='category'>Java</p>
                 <h5><a className='title-link' href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'>Interfaces</a></h5>
-                <p>In the realm of Java Development, interfaces plays a pivotal role in how classes implement functionality.</p>
+                <p className='description'>In the realm of Java Development, interfaces plays a pivotal role in how classes implement functionality.</p>
                 <p>Last updated: 8 Feb 2024</p>
             </span>
             <span>

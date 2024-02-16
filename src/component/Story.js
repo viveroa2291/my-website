@@ -1,5 +1,4 @@
 import React, {useState}  from 'react'
-
 import EarlyLife from './EarlyLife'
 import HighSchool from './HighSchool'
 import College from './College'

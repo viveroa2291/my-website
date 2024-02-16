@@ -50,10 +50,11 @@ function Home() {
                 <p>Last updated: 13 Feb 2024 </p>
             </span>
             <span>
-                <img className='thumbnails' src={exceptions} alt="Exceptions"/>
+                <a href='https://medium.com/@adan_vivero/java-exceptions-7bf11e69ea4a'><img className='thumbnails' src={exceptions} alt="Exceptions"/></a>
                 <p className='category'>Java</p>
-                <h5>Exceptions</h5>
-                <p>Coming soon...</p>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/java-exceptions-7bf11e69ea4a'>Exceptions</a></h5>
+                <p className='description'>Exceptions in Java are a crucial element of Java Programming as it is a way for developers to debug unexpected events or errors within a program.</p>
+                <p>Last updated: 14 Feb 2024</p>
             </span>
         </div>
         <hr className='divider'></hr>
@@ -66,16 +67,18 @@ function Home() {
                 <p>Last updated: 8 Feb 2024</p>
             </span>
             <span>
-                <img className='thumbnails' src={jvm} alt="Java Virtual Machine"/>
+                <a href='https://medium.com/@adan_vivero/java-virtual-machine-501d00a6d1f6'><img className='thumbnails' src={jvm} alt="Java Virtual Machine"/></a>
                 <p className='category'>Java</p> 
-                <h5>Java Virtual Machine (JVM)</h5>
-                <p>Coming soon...</p>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/java-virtual-machine-501d00a6d1f6'>Java Virtual Machine (JVM)</a></h5>
+                <p className='description'>The Java Virtual Machine (JVM) is a virtualized execution environment that enables Java applications to run on various different hardware devices.</p>
+                <p>Last updated: 14 Feb 2024</p>
             </span>
             <span>
-                <img className='thumbnails' src={abstract} alt="Abstract Classes"/>
+                <a href='https://medium.com/@adan_vivero/abstract-classes-in-java-6579d0d2a9a7'><img className='thumbnails' src={abstract} alt="Abstract Classes"/></a>
                 <p className='category'>Java</p>
-                <h5>Abstract Classes</h5>
-                <p>Coming soon...</p>
+                <h5><a className='title-link' href='https://medium.com/@adan_vivero/abstract-classes-in-java-6579d0d2a9a7'>Abstract Classes</a></h5>
+                <p className='description'>An Abstract Class in Java is a class that can’t be instantiated on its own and typically functions as a blueprint for other classes.</p>
+                <p>Last updated: 15 Feb 2024</p>
             </span>
         </div>
         {/*

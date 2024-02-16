@@ -1,9 +1,26 @@
 import React from 'react'
-
-function Project(){
+import './CSS/Project.css';
+function Project() {
     return (
-        <div>
-           <h1 style={{color: "red"}}>This is my projects page</h1>
+        <div  className="project-body">
+           <h1 className='project-header'>These are some of my personal projects</h1>
+           <div className='project-div'>
+                <span className='project-span'>
+                    <h2 className='project-h2'>Tic Tac Toe</h2>
+                    <hr className='project-hr'></hr>
+                    <iframe title='tic tac toe game' className='projects' src="https://viveroa2291.github.io/Tic-Tac-Toe/"></iframe>
+                </span>
+                <span className='project-span'>
+                    <h2 className='project-h2'>Cancun Mexican Grill</h2>
+                    <hr className='project-hr'></hr>
+                    <iframe title='Cancun Mexican Grill Restaraunt' className='projects' src="https://viveroa2291.github.io/Cancun/"></iframe>
+                </span>
+                <span className='project-span'>
+                    <h2 className='project-h2'>Developer Site</h2>
+                    <hr className='project-hr'></hr>
+                    <iframe title='My Developer Website' className='projects' src="https://viveroa2291.github.io/Developer-Site/"></iframe>
+                </span>
+           </div>
         </div>
     )
 }

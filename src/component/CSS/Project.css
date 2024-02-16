@@ -1,0 +1,39 @@
+.project-body {
+    margin-top: 4.5rem;
+}
+.project-div {      
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+iframe {
+    height: 250px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.project-span {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 4rem;
+}
+.project-h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+    .project-header {
+        font-size: 18px;
+    }
+    .project-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-span {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+}

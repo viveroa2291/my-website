@@ -27,8 +27,8 @@ function Home() {
             <span>
                 <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'></img></a>
             </span>
-            <span class="story-description">
-                <h2 className='main-header'>Share A Coke Draws People In</h2>
+            <span class="main-description">
+                <h2 className='main-header'><a className='title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h2>
                 <p className='main-story'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
                 <p>Last updated: 22 Oct 2015</p>
             </span>

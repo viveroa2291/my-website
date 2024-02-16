@@ -28,3 +28,28 @@ h1 {
 .story-category {
     color:  rgb(0, 153, 213);
 }
+@media (max-width: 800px) { 
+    .stories {
+        grid-template-columns: repeat(2, 1fr); 
+        width: 80%;
+    }
+    .story-thumbnails {
+        height: 75px;
+    }
+    .story-title-link {
+        font-size: 14px;
+    }
+    .story-category {
+        font-size: 12px;
+    }
+    .story-description {
+        font-size: 12px;
+    }
+    .header-title {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 11px;
+    }
+}

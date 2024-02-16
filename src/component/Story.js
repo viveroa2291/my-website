@@ -10,7 +10,7 @@ import './CSS/Story.css';
 function Story (){
     return (
         <div className='story-body'>
-            <h1>Here are my stories</h1>
+            <h1 className='header-title'>Here are my stories</h1>
             <div className='stories'>
                 <span>      
                     <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="story-thumbnails" src={coke} alt='Coca Cola'></img></a>

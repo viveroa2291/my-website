@@ -7,17 +7,17 @@ function Project() {
            <div className='project-div'>
                 <span className='project-span'>
                     <h2 className='project-h2'>Tic Tac Toe</h2>
-                    <hr className='project-hr'></hr>
+                    <hr className='project-hr'/>
                     <iframe title='tic tac toe game' className='projects' src="https://viveroa2291.github.io/Tic-Tac-Toe/"></iframe>
                 </span>
                 <span className='project-span'>
                     <h2 className='project-h2'>Cancun Mexican Grill</h2>
-                    <hr className='project-hr'></hr>
+                    <hr className='project-hr'/>
                     <iframe title='Cancun Mexican Grill Restaraunt' className='projects' src="https://viveroa2291.github.io/Cancun/"></iframe>
                 </span>
                 <span className='project-span'>
                     <h2 className='project-h2'>Developer Site</h2>
-                    <hr className='project-hr'></hr>
+                    <hr className='project-hr'/>
                     <iframe title='My Developer Website' className='projects' src="https://viveroa2291.github.io/Developer-Site/"></iframe>
                 </span>
            </div>

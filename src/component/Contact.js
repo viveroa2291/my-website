@@ -9,7 +9,7 @@ function Contact () {
     return (
         <Container className="body">
             <h1 style={{textAlign: 'center'}}>Contact & Social Media information:</h1>
-            <hr></hr>
+            <hr/>
             <Row className="inside">
                 <img className='header-image' src="/images/IMG_5999.jpeg" alt=""></img> 
                 <Col>
@@ -24,7 +24,7 @@ function Contact () {
                     <p><SocialIcon url="https://mail.google.com/mail/u/0/?ogbl#inbox"/> Email: adxadan@gmail.com</p>
                 </Col>
             </Row>
-            <hr></hr>
+            <hr/>
         </Container>
 
      

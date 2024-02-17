@@ -22,7 +22,7 @@ function Home() {
                 <Link className='about-link' to="/About">About Me</Link>
             </div>
         </div>
-        <hr></hr>
+        <hr/>
         <div class="first-story">
             <span>
                 <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'></img></a>
@@ -33,7 +33,7 @@ function Home() {
                 <p>Last updated: 22 Oct 2015</p>
             </span>
         </div>
-        <hr className='divider'></hr>
+        <hr className='divider'/>
         <div className='next-stories'>
             <span>
                <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='thumbnails' src={oop} alt="Object Oriented Programming"/></a> 
@@ -57,7 +57,7 @@ function Home() {
                 <p>Last updated: 14 Feb 2024</p>
             </span>
         </div>
-        <hr className='divider'></hr>
+        <hr className='divider'/>
         <div className='next-stories'>
             <span>
                 <a href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'><img className='thumbnails' src={interfaces} alt="Object Oriented Programming"/></a>
@@ -209,7 +209,7 @@ function Home() {
             </span>
         </div>
         */}
-        <hr className='divider'></hr>
+        <hr className='divider'/>
     </div>
     );
 }

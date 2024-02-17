@@ -1,3 +1,6 @@
+.body {
+    margin-top: 4rem;
+}
 .header-image {
     height: 600px;
     border: solid black 5px;

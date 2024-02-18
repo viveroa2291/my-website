@@ -11,7 +11,7 @@ function NavBar() {
                 <Nav className="mr-auto">
                     <Nav.Link className='links' href="/about">About</Nav.Link>
                     <Nav.Link className='links' href="/story">Story</Nav.Link>
-                    <Nav.Link className='links' href="/contact">Contact</Nav.Link>
+                    <Nav.Link className='links' href="/connect">Connect</Nav.Link>
                     <Nav.Link className='links' href="/project">Project</Nav.Link>
                 </Nav>                    
                 <SocialIcon className='twitter-link' url="https://twitter.com/adan_vivero"/>

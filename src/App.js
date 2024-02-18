@@ -2,7 +2,7 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Home from './component/Home';
 import About from "./component/About";
-import Contact from "./component/Contact";
+import Connect from "./component/Connect";
 import Story from './component/Story';
 import Project from './component/Project';
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Switch>
       <Route path="/" component={Home} exact/>
       <Route path="/about" component={About} exact/>
-      <Route path="/contact" component={Contact} exact/>
+      <Route path="/contact" component={Connect} exact/>
       <Route path="/story" component={Story} exact/>
       <Route path="/project" component={Project} exact/>
     </Switch>

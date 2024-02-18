@@ -49,8 +49,8 @@ const[selectedOption, setSelectedOption] = useState('all');
     };
     return(
         <div>
-            <h2>Snapchat Lenses</h2>
-            <p>Here are my Snapchat lenses</p>
+            <h2 className='lense-header'>Snapchat Lenses</h2>
+            <p className='lense-header'>Here are my Snapchat lenses</p>
           <select onChange={handleSelectLense} className='options'>
             <option value="all">All</option>
             <option value="college">College</option>

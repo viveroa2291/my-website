@@ -14,18 +14,18 @@ function Home() {
     <div id="mainBody">
         <div class="top-bar">
             <span class='picture'>
-                <img class="chicago-image" src={chicago} alt='Chicago'></img>
+                <img class="chicago-image" src={chicago} alt='Chicago'/>
             </span>
             <div class="introduction">
                 <h2 class="helloWorld">Hi, I'm Adan.</h2>
-                <p className='my-story'>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you. </p>
+                <p className='my-story'>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you.</p>
                 <Link className='about-link' to="/About">About Me</Link>
             </div>
         </div>
         <hr/>
         <div class="first-story">
             <span>
-                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'></img></a>
+                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'/></a>
             </span>
             <span class="main-description">
                 <h2 className='main-header'><a className='title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h2>

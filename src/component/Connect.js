@@ -13,7 +13,7 @@ function Connect () {
             <Row className="inside">
                 <img className='header-image' src="/images/IMG_5999.jpeg" alt=""/>
             </Row>
-            <p>Here are some links on where you can connect with me.</p>
+            <p className='context'>Here are some links on where you can connect with me.</p>
             <Row className='icons'>
                 <SocialIcon className='icon' url="https://www.linkedin.com/in/adan-vivero-a93970156/"/>
                 <SocialIcon className='icon' url="https://stackoverflow.com/users/10572727/adan-vivero?tab=profile"/>

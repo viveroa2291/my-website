@@ -9,7 +9,7 @@
     border: solid black 2px;
     border-radius: 5px;
 }
-p {
+.context {
     text-align: center;
     margin-top: 1rem;
 }

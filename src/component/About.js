@@ -29,9 +29,7 @@ function About() {
           <Collapse in={Lense}>
             <Lense/>
           </Collapse>
-          <h2>Connect with me</h2>
-            <a href='https://www.linkedin.com/in/adan-vivero-a93970156/'>Linkedin</a> <br/>
-            <a href='https://medium.com/@adan_vivero'>Medium</a>
+          <h2>My Tech  Stack</h2>
       </div>
     );
 }

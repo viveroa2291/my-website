@@ -1,6 +1,8 @@
 import React from 'react';
 import "./CSS/About.css";
 import Lense from './Lense';
+import TechStack from './about-sub/TechStack';
+import Work from './about-sub/Work';
 import {Collapse} from 'react-bootstrap'
 
 fetch('https://graph.facebook.com/me?fields=age_range,friends', {
@@ -19,6 +21,14 @@ function About() {
           <p>I have experience working with databases, cloud computing, git, and Api's. The technologies that I use for those are Springboot, AWS, and SQL.</p>
           <p>In my free time, I like to create Snapchat lenses.</p>
           <p>I'm living in Chicago, Illinois.</p>
+          <h2>Where I've worked</h2>
+          <Collapse in={Work}>
+            <Work/>
+          </Collapse>
+          <h2>My Tech  Stack</h2>
+          <Collapse in={TechStack}>
+            <TechStack/>
+          </Collapse>
           <h2 className='film-header'>My most watched films</h2>
           <div>
             <span className='film'>
@@ -29,7 +39,6 @@ function About() {
           <Collapse in={Lense}>
             <Lense/>
           </Collapse>
-          <h2>My Tech  Stack</h2>
       </div>
     );
 }

@@ -65,6 +65,20 @@ h2 {
     margin-right: auto;
     margin-bottom: 2rem;
 }
+.tech-stack {
+    margin-right: 5px;
+    margin-top: 1rem;
+    height: 30px;
+}
+.job-title {
+    font-size: 20px;
+}
+.job-date {
+    font-size: 14px;
+}
+.job-description {
+    font-size: 12px;
+}
 @media (max-width: 800px) {
     .snapchat-lenses {
         display: grid;

@@ -21,6 +21,7 @@ h2 {
 }
 .film-header {
     text-align: center;
+    margin-top: 3rem;
 }
 .film-link {
     display: block;
@@ -93,5 +94,9 @@ h2 {
     .lense-link {
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+    .tech-stack {
+        height: 25px;
+        margin-top: 3px;
     }
 }

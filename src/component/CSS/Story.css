@@ -14,7 +14,7 @@ h1 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .story-thumbnails {
     height: 125px;
@@ -31,6 +31,10 @@ h1 {
 .story-category {
     color:  rgb(0, 153, 213);
 }
+.options {
+    margin-top: 1rem;
+}
+
 @media (max-width: 800px) { 
     .stories {
         grid-template-columns: repeat(2, 1fr); 
@@ -54,5 +58,9 @@ h1 {
     }
     p {
         font-size: 11px;
+    }
+    .youtube-videos {
+        height: 200px;
+        width: 300px;
     }
 }

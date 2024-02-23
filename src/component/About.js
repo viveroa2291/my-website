@@ -2,7 +2,7 @@ import React from 'react';
 import "./CSS/About.css";
 import Lense from './Lense';
 import TechStack from './about-sub/TechStack';
-import Work from './about-sub/Work';
+import Work from './about-sub/Work.js';
 import {Collapse} from 'react-bootstrap'
 
 fetch('https://graph.facebook.com/me?fields=age_range,friends', {

@@ -5,19 +5,19 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+    height: 300px;
     border: solid black 2px;
     border-radius: 5px;
 }
 .context {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .icon {
     margin-left: 1rem;
@@ -28,8 +28,15 @@
         flex-direction: column;
     }
     .header-image {
-        height: 200px;
+        height: 250px;
         border: solid black 5px;
         border-radius: 5%;
+    }
+    .context {
+        font-size: 14px;
+        margin-top: 3rem;
+    }
+    .icons {
+        margin-top: 1rem;
     }
 }

@@ -6,6 +6,7 @@ import interfaces from '../thumbnails/interface.png';
 import exceptions from '../thumbnails/exceptions.png';
 import jvm from '../thumbnails/jvm.png';
 import abstract from '../thumbnails/abstract.png';
+import state from '../thumbnails/useState.png';
 import './CSS/Story.css';
 function Story (){
     const[selectedFilter, setSelectedFilter] = useState('all');
@@ -19,6 +20,7 @@ function Story (){
         <select onChange={handleFilter} className='options'>
             <option value="all">All</option>
             <option value="java">Java</option>
+            <option value="react">React.js</option>
             <option value="other">Other</option>
         </select>
             <div className='stories'>
@@ -70,6 +72,13 @@ function Story (){
                     <h5><a className='story-title-link' href='https://medium.com/@adan_vivero/abstract-classes-in-java-6579d0d2a9a7'>Abstract Classes</a></h5>
                     <p className='description'>An Abstract Class in Java is a class that can’t be instantiated on its own and typically functions as a blueprint for other classes.</p>
                     <p>Last updated: 15 Feb 2024</p>
+                </span>
+                <span className={`${selectedFilter === 'all' || selectedFilter === 'react'?'visible':'hidden'}`}>
+                    <a href='https://medium.com/@adan_vivero/usestate-in-react-a-simple-guide-c477fb9f839d'><img className='story-thumbnails' src={state} alt="useState Hook"/></a>
+                    <p className='story-category'>React.js</p>
+                    <h5><a className='story-title-link' href='https://medium.com/@adan_vivero/abstract-classes-in-java-6579d0d2a9a7'>useState Hook</a></h5>
+                    <p className='description'>The ‘useState’ hook in React is used in functional components, providing a mechanism to update the component’s state.</p>
+                    <p>Last updated: 23 Feb 2024</p>
                 </span>
             </div>
         </div>

@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Navbar';
 import { BrowserRouter } from 'react-router-dom';
-import { Navbar } from 'react-bootstrap';
 import Footer from './Footer';
 
 ReactDOM.render(

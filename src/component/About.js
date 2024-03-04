@@ -30,10 +30,14 @@ function About() {
             <TechStack/>
           </Collapse>
           <h2 className='film-header'>My most watched films</h2>
-          <div>
+          <div className='film-div'>
             <span className='film'>
               <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/5dZ_lvDgevk?si=EfmImR9pl5V51jwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
               <a className='film-link' href='https://www.youtube.com/watch?v=5dZ_lvDgevk'>In the age of AI</a>  
+            </span>
+            <span className='film'>
+              <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/1cKE12LK4Eo?si=l8GwtK1N0Wipy5Fd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+              <a className='film-link' href='https://www.youtube.com/watch?v=1cKE12LK4Eo&t=1255s'>AI Tipping Point</a>
             </span>
           </div>
           <Collapse in={Lense}>

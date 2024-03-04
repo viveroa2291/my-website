@@ -25,7 +25,7 @@ function Story (){
         </select>
             <div className='stories'>
                 <span className={`${selectedFilter === 'all' || selectedFilter === 'other'?'visible':'hidden'}`}>      
-                    <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="story-thumbnails" src={coke} alt='Coca Cola'/></a>
+                    <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img className="story-thumbnails" src={coke} alt='Coca Cola'/></a>
                     <p className='story-category'>Other</p>   
                     <h5><a className='story-title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h5>
                     <p className='story-description'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”.</p>

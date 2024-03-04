@@ -4,12 +4,13 @@ import Lense from './Lense';
 import TechStack from './about-sub/TechStack';
 import Work from './about-sub/Work.js';
 import {Collapse} from 'react-bootstrap'
-
+/*
 fetch('https://graph.facebook.com/me?fields=age_range,friends', {
     headers: {Authorization: `Bearer {EAAEpbBN4NYcBO050H9rhHcBZAAaVivfu3O6UWvMuQTMEdGGDo5YGRde7vZB0rzv30pDZC2UFsSjPpZCjJR01rWyjhdueAeAJpolE9PQkmOvAZAvgeW7eg8ZBqfBh5mdjNnK5kGxTWZBCEsEZBRz3kaVzvBZAUR0DrKpAhpeyZCgGeyEgt2u9GXSFtc8CQk0WuDA2sVZAta6UOi9pROtlyZCzizojcBa0WNsZARcohBvrrJ3OHH0WxIdeXBN7XEPaZBcZBKZAQov7T2AZD}`}
 }).then(res => {
     console.log(res);
 });
+*/
 function About() {
     return (
       <div className='about-section'>
@@ -32,11 +33,11 @@ function About() {
           <h2 className='film-header'>My most watched films</h2>
           <div className='film-div'>
             <span className='film'>
-              <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/5dZ_lvDgevk?si=EfmImR9pl5V51jwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+              <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/5dZ_lvDgevk?si=EfmImR9pl5V51jwk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
               <a className='film-link' href='https://www.youtube.com/watch?v=5dZ_lvDgevk'>In the age of AI</a>  
             </span>
             <span className='film'>
-              <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/1cKE12LK4Eo?si=l8GwtK1N0Wipy5Fd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+              <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/1cKE12LK4Eo?si=l8GwtK1N0Wipy5Fd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
               <a className='film-link' href='https://www.youtube.com/watch?v=1cKE12LK4Eo&t=1255s'>AI Tipping Point</a>
             </span>
           </div>

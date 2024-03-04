@@ -12,22 +12,22 @@ import abstract from '../thumbnails/abstract.png';
 function Home() {
     return(
     <div id="mainBody">
-        <div class="top-bar">
-            <span class='picture'>
-                <img class="chicago-image" src={chicago} alt='Chicago'/>
+        <div className="top-bar">
+            <span className='picture'>
+                <img className="chicago-image" src={chicago} alt='Chicago'/>
             </span>
-            <div class="introduction">
-                <h2 class="helloWorld">Hi, I'm Adan.</h2>
+            <div className="introduction">
+                <h2 className="helloWorld">Hi, I'm Adan.</h2>
                 <p className='my-story'>Welcome! Lately you'll find me here scribbling down notes on what I'm learning. If you read anything <br></br> here and have feedback, corrections or thoughts, I'd love to hear from you.</p>
                 <Link className='about-link' to="/About">About Me</Link>
             </div>
         </div>
         <hr/>
-        <div class="first-story">
+        <div className="first-story">
             <span>
-                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img class="coke-image" src={coke} alt='Coca Cola'/></a>
+                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img className="coke-image" src={coke} alt='Coca Cola'/></a>
             </span>
-            <span class="main-description">
+            <span className="main-description">
                 <h2 className='main-header'><a className='title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h2>
                 <p className='main-story'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
                 <p>Last updated: 22 Oct 2015</p>

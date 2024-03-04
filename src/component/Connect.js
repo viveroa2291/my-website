@@ -3,7 +3,6 @@ import {Container, Row} from 'react-bootstrap';
 import './CSS/Connect.css';
 import {SocialIcon } from 'react-social-icons';
 
-
 function Connect () {
   
     return (

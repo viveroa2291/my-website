@@ -1,3 +1,6 @@
+.introduction {
+    text-align: center;
+}
 h2 {
     text-align: center;
 }
@@ -22,13 +25,14 @@ h2 {
 .film-header {
     text-align: center;
     margin-top: 3rem;
+    font-size: 25px;
 }
 .film-link {
     display: block;
     text-align: center;
     font-size: 16px;
     color: black;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 .lenses {
     height: 100px;

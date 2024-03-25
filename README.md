@@ -1,5 +1,5 @@
 # my-website
-A personalized web page created by me that includes all the links to my social, threads, code, or other forums. A blog themed website that contains details about myself and stories that I have written in Medium.
+A personalized web page created by me that includes all the links to my social, threads, code, or other forums. A blog themed website that contains details about myself and stories that I have written in Medium. The about section includes information about myself along with my snapchat lenses, films that I like that is technology related and a resume. 
 
 # Tech used: ![ReactBadge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 My learning was focused on making a simple UI that resembled a blog style them with a smooth UX bundled with articles that I have written myself. 

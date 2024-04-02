@@ -1,6 +1,9 @@
 .project-body {
     margin-top: 4.5rem;
 }
+.project-header {
+    margin-top: 5rem;
+}
 .project-div {      
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,8 +21,8 @@ iframe {
 .project-h2 {
     text-align: center;
     font-size: 22px;
+    color: black;
 }
-
 @media only screen and (max-width: 800px) {
     .project-header {
         font-size: 18px;

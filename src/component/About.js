@@ -26,7 +26,7 @@ function About() {
           <Collapse in={Work}>
             <Work/>
           </Collapse>
-          <h2>My Tech  Stack</h2>
+          <h2 className='tech-stack-header'>My Tech  Stack</h2>
           <Collapse in={TechStack}>
             <TechStack/>
           </Collapse>

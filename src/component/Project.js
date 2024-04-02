@@ -6,17 +6,17 @@ function Project() {
            <h1 className='project-header'>These are some of my personal projects</h1>
            <div className='project-div'>
                 <span className='project-span'>
-                    <h2 className='project-h2'>Tic Tac Toe</h2>
+                    <a className='project-h2' href='https://viveroa2291.github.io/Tic-Tac-Toe/'>Tic Tac Toe</a>
                     <hr className='project-hr'/>
                     <iframe title='tic tac toe game' className='projects' src="https://viveroa2291.github.io/Tic-Tac-Toe/"/>
                 </span>
                 <span className='project-span'>
-                    <h2 className='project-h2'>Cancun Mexican Grill</h2>
+                    <a className='project-h2' href='https://viveroa2291.github.io/Cancun/'>Cancun Mexican Grill</a>
                     <hr className='project-hr'/>
                     <iframe title='Cancun Mexican Grill Restaraunt' className='projects' src="https://viveroa2291.github.io/Cancun/"/>
                 </span>
                 <span className='project-span'>
-                    <h2 className='project-h2'>Developer Site</h2>
+                    <a className='project-h2' href='https://viveroa2291.github.io/Developer-Site/'>Developer Site</a>
                     <hr className='project-hr'/>
                     <iframe title='My Developer Website' className='projects' src="https://viveroa2291.github.io/Developer-Site/"/>
                 </span>

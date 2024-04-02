@@ -1,5 +1,5 @@
 .introduction {
-    text-align: center;
+    margin-bottom: 2rem;
 }
 h2 {
     text-align: center;
@@ -34,8 +34,14 @@ h2 {
     color: black;
     margin-top: .5rem;
 }
+.lense-div {
+    margin-top: 5rem;
+}
 .lenses {
     height: 100px;
+}
+.snapchat-hr {
+    width: 50%;
 }
 .snapchat-lenses {
     display: grid;
@@ -70,6 +76,9 @@ h2 {
     margin-right: auto;
     margin-bottom: 2rem;
 }
+.tech-stack-header {
+    margin-top: 3rem;
+}
 .tech-stack {
     margin-right: 5px;
     margin-top: 1rem;
@@ -85,6 +94,9 @@ h2 {
     font-size: 12px;
 }
 @media (max-width: 800px) {
+    .introduction {
+        text-align: center;
+    }
     .snapchat-lenses {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

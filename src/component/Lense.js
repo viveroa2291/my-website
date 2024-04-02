@@ -48,8 +48,9 @@ const[selectedOption, setSelectedOption] = useState('all');
       setSelectedOption(event.target.value);
     };
     return(
-        <div>
+        <div className='lense-div'>
             <h2 className='lense-header'>Snapchat Lenses</h2>
+            <hr className='snapchat-hr'/>
             <p className='lense-header'>Here are my Snapchat lenses</p>
           <select onChange={handleSelectLense} className='options'>
             <option value="all">All</option>

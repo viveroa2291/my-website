@@ -13,6 +13,30 @@ h2 {
 .about-section>h1 {
     margin-top: 5rem;
 }
+.about-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about-picture .about-chicago-image {
+    /*
+    margin-top: -225px;
+    margin-left: -375px;
+    */
+    margin-top: -285px;
+    margin-left: -467px; 
+    transform: scale(.25);   
+    border-radius: 50%; 
+}
+.chicago-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .film {
     display: flex;
     flex-direction: column;
@@ -83,6 +107,9 @@ h2 {
     margin-right: 5px;
     margin-top: 1rem;
     height: 30px;
+}
+.bottom-techstack-hr {
+    margin-top: 2rem;
 }
 .job-title {
     font-size: 20px;

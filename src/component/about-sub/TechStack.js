@@ -1,4 +1,5 @@
 import React from "react";
+import '../CSS/About.css';
 function TechStack () {
     return(
         <div>
@@ -12,6 +13,7 @@ function TechStack () {
             <img className="tech-stack" src='https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white' alt='PHP Icon'/>
             <img className="tech-stack" src='https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white' alt='Kotlin Icon'/>
             <img className="tech-stack" src='https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=fff' alt='SQL Icon'/>
+            <hr className="bottom-techstack-hr"/>
         </div>
     )
 }

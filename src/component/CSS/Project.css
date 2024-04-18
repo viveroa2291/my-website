@@ -23,10 +23,6 @@ iframe {
     font-size: 22px;
     color: black;
 }
-.languages-used {
-    list-style-position: inside;
-    margin-left: -4rem;
-}
 @media only screen and (max-width: 800px) {
     .project-header {
         font-size: 18px;

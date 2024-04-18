@@ -13,6 +13,8 @@ function TechStack () {
             <img className="tech-stack" src='https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white' alt='PHP Icon'/>
             <img className="tech-stack" src='https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white' alt='Kotlin Icon'/>
             <img className="tech-stack" src='https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=fff' alt='SQL Icon'/>
+            <img className="tech-stack" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS-Icon"/>
+            <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
             <hr className="bottom-techstack-hr"/>
         </div>
     )

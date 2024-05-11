@@ -23,6 +23,11 @@ iframe {
     font-size: 22px;
     color: black;
 }
+.mappins-image {
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
 @media only screen and (max-width: 800px) {
     .project-header {
         font-size: 18px;
@@ -38,5 +43,8 @@ iframe {
     .project-h2 {
         text-align: center;
         font-size: 18px;
+    }
+    .mappins-image {
+        height: 200px;
     }
 }

@@ -18,6 +18,9 @@ iframe {
     text-align: center;
     margin-left: 4rem;
 }
+.project-span>p {
+    margin-top: 1rem;
+}
 .project-h2 {
     text-align: center;
     font-size: 22px;

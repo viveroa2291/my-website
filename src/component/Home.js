@@ -25,23 +25,17 @@ function Home() {
         <hr/>
         <div className="first-story">
             <span>
-                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img className="coke-image" src={coke} alt='Coca Cola'/></a>
+                <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='coke-image' src={oop} alt="Object Oriented Programming"/></a> 
             </span>
-            <span className="main-description">
-                <h2 className='main-header'><a className='title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h2>
-                <p className='main-story'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
-                <p>Last updated: 22 Oct 2015</p>
+            <span className='main-description'>
+                {/*<p className='category'>Java</p> */}
+                <h5 className='main-header'><a className='title-link' href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'>Object Oriented Programming</a></h5>
+                <p className='main-story'>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
+                <p>Last updated: 4 Feb 2024 </p>
             </span>
         </div>
         <hr className='divider'/>
         <div className='next-stories'>
-            <span>
-               <a href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'><img className='thumbnails' src={oop} alt="Object Oriented Programming"/></a> 
-                <p className='category'>Java</p>
-                <h5><a className='title-link' href='https://medium.com/@adan_vivero/introduction-to-object-oriented-programming-cba5acaee45b'>Object Oriented Programming</a></h5>
-                <p className='description'>Object-Oriented Programming is a model that organizes code into reusable chunks of units wrapped into what is called objects.</p>
-                <p>Last updated: 4 Feb 2024 </p>
-            </span>
             <span>
                 <a href='https://medium.com/@adan_vivero/threads-in-java-programming-f5a196de8c72'><img className='thumbnails' src={threads} alt="Threads"/></a>
                 <p className='category'>Java</p> 
@@ -55,10 +49,7 @@ function Home() {
                 <h5><a className='title-link' href='https://medium.com/@adan_vivero/java-exceptions-7bf11e69ea4a'>Exceptions</a></h5>
                 <p className='description'>Exceptions in Java are a crucial element of Java Programming as it is a way for developers to debug unexpected events or errors within a program.</p>
                 <p>Last updated: 14 Feb 2024</p>
-            </span>
-        </div>
-        <hr className='divider'/>
-        <div className='next-stories'>
+            </span>            
             <span>
                 <a href='https://medium.com/@adan_vivero/java-interfaces-9e4d59188409'><img className='thumbnails' src={interfaces} alt="Object Oriented Programming"/></a>
                 <p className='category'>Java</p>
@@ -66,6 +57,9 @@ function Home() {
                 <p className='description'>In the realm of Java Development, interfaces plays a pivotal role in how classes implement functionality.</p>
                 <p>Last updated: 8 Feb 2024</p>
             </span>
+        </div>
+        <hr className='divider'/>
+        <div className='next-stories'>
             <span>
                 <a href='https://medium.com/@adan_vivero/java-virtual-machine-501d00a6d1f6'><img className='thumbnails' src={jvm} alt="Java Virtual Machine"/></a>
                 <p className='category'>Java</p> 
@@ -79,6 +73,13 @@ function Home() {
                 <h5><a className='title-link' href='https://medium.com/@adan_vivero/abstract-classes-in-java-6579d0d2a9a7'>Abstract Classes</a></h5>
                 <p className='description'>An Abstract Class in Java is a class that can’t be instantiated on its own and typically functions as a blueprint for other classes.</p>
                 <p>Last updated: 15 Feb 2024</p>
+            </span>
+            <span>                
+                <a href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'><img className="thumbnails" src={coke} alt='Coca Cola'/></a>
+                <p className='category'>Other</p>
+                <h5><a className='title-link' href='https://medium.com/@avivero6487/share-a-coke-draws-people-in-d86bec99c5d8'>Share A Coke Draws People In</a></h5>
+                <p className='description'>Many advertisements have a Unique Selling Proposition, and Coke’s is “Share A Coke”. Coke has been dominating its competitors for years but its main competitor “Pepsi”. With a new and different ad campaign, Coke has been remaining above others in its drinks.</p>
+                <p>Last updated: 22 Oct 2015</p>
             </span>
         </div>
         <hr className='divider'/>

@@ -4,6 +4,7 @@ import Home from './component/Home';
 import About from "./component/About";
 import Connect from "./component/Connect";
 import Story from './component/Story';
+import Snapchat from './component/Snapchat';
 import Project from './component/Project';
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Route path="/about" component={About} exact/>
       <Route path="/connect" component={Connect} exact/>
       <Route path="/story" component={Story} exact/>
+      <Route path="/snapchat" component={Snapchat} exact/>
       <Route path="/project" component={Project} exact/>
     </Switch>
   );

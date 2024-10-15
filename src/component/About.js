@@ -1,6 +1,5 @@
 import React from 'react';
 import "./CSS/About.css";
-import Lense from './Lense';
 import TechStack from './about-sub/TechStack';
 import Work from './about-sub/Work.js';
 import chicago from '../images/chicago.jpeg';
@@ -48,9 +47,6 @@ function About() {
               <iframe className='youtube-videos' width="350" height="157.5" src="https://www.youtube.com/embed/1cKE12LK4Eo?si=l8GwtK1N0Wipy5Fd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
             </span>
           </div>
-          <Collapse in={Lense}>
-            <Lense/>
-          </Collapse>
       </div>
     );
 }

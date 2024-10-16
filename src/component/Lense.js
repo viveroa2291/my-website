@@ -40,7 +40,9 @@ import greece from '../snapchat-lenses/greece.svg';
 import ireland from '../snapchat-lenses/ireland.svg';
 import saudi from '../snapchat-lenses/saudi.svg';
 import russia from '../snapchat-lenses/russia.svg';
-
+import './CSS/Snapchat-Embedding.css';
+import {Collapse} from 'react-bootstrap';
+import SnapchatEmbed from './Snapchat-Embed';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
 
@@ -49,6 +51,9 @@ const[selectedOption, setSelectedOption] = useState('all');
     };
     return(
         <div className='lense-div'>
+          <Collapse in={SnapchatEmbed}>
+            <SnapchatEmbed/>
+          </Collapse> 
             <h2 className='lense-header'>Snapchat Lenses</h2>
             <hr className='snapchat-hr'/>
             <p className='lense-header'>Here are my Snapchat lenses</p>
@@ -69,6 +74,7 @@ const[selectedOption, setSelectedOption] = useState('all');
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}>
                 <img className='lenses' src={sami} alt='Sami'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3f3b83e64d7a4b1e9b06e9c2e27b4ecc&metadata=01'>Sami's Birthday Crown</a>
+                
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
                 <img className='lenses' src={hoosier} alt='Hoosier'/>

@@ -1,0 +1,51 @@
+.snapchat-embed {
+    background: #C4C4C4;
+      border: 0;
+      border-radius: 40px;
+      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
+      margin: 1px;
+      max-width: 416px;
+      min-width: 326px;
+      padding: 0;
+      width: 99.375%;
+      width: calc(100% - 2px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: 650px;
+}
+.snapchat-embed-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+.snapchat-embed-link, .snapchat-embed-inner-div {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+.outer-inner-div {
+    flex: 1;
+}
+.outer-div {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    border-end-end-radius: 40px; 
+    border-end-start-radius: 40px;
+}
+.bottom-snapchat-link {
+    background-color: yellow; 
+    width:100%; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: inherit; 
+    cursor: pointer; 
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-decoration: none; 
+    color: black;
+}

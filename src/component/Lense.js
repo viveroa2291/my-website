@@ -51,9 +51,11 @@ const[selectedOption, setSelectedOption] = useState('all');
     };
     return(
         <div className='lense-div'>
+          {/* 
           <Collapse in={SnapchatEmbed}>
             <SnapchatEmbed/>
           </Collapse> 
+          */}
             <h2 className='lense-header'>Snapchat Lenses</h2>
             <hr className='snapchat-hr'/>
             <p className='lense-header'>Here are my Snapchat lenses</p>

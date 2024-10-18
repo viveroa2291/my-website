@@ -26,6 +26,9 @@ iframe {
     font-size: 22px;
     color: black;
 }
+.project-h2:hover {
+    cursor: pointer;
+}
 .mappins-image {
     height: 250px;
     width: 300px;

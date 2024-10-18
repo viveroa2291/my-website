@@ -43,6 +43,7 @@ import russia from '../snapchat-lenses/russia.svg';
 import './CSS/Snapchat-Embedding.css';
 import {Collapse} from 'react-bootstrap';
 import SnapchatEmbed from './Snapchat-Embed';
+import './CSS/Snapchat.css';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
 

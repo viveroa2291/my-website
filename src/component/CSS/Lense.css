@@ -12,11 +12,6 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
-.snap-code {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .lenses {
     height: 100px;
 }
@@ -33,9 +28,6 @@
     .snapchat-lenses {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-    .snap-code {
-        text-align: center;
     }
     .lense-link {
         margin-top: 1rem;

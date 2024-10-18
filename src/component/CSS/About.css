@@ -58,18 +58,6 @@ h2 {
     color: black;
     margin-top: .5rem;
 }
-.visible {
-    display: block;
-}
-.hidden {
-    display: none;
-}
-.options {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
 .tech-stack-header {
     margin-top: 3rem;
 }

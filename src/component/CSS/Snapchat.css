@@ -1,0 +1,19 @@
+.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden {
+    display: none;
+}
+.options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+@media (max-width: 800px) {
+    .snap-code {
+        text-align: center;
+    }
+}

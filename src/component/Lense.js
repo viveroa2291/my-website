@@ -41,22 +41,26 @@ import ireland from '../snapchat-lenses/ireland.svg';
 import saudi from '../snapchat-lenses/saudi.svg';
 import russia from '../snapchat-lenses/russia.svg';
 import './CSS/Snapchat-Embedding.css';
-import {Collapse} from 'react-bootstrap';
-import SnapchatEmbed from './Snapchat-Embed';
+// import {Collapse} from 'react-bootstrap';
+import Badgers from './SnapchatEmbeds/badgers';
+import Sami from './SnapchatEmbeds/sami';
+import Indiana from './SnapchatEmbeds/indiana';
+import Prospect from './SnapchatEmbeds/prospect';
+import UWEC from './SnapchatEmbeds/uwec';
+import Mizzou from './SnapchatEmbeds/mizzou';
 import './CSS/Snapchat.css';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
+const [previewLense, setPreviewLense] = useState(false);
 
+    const togglePreview = () => {
+      setPreviewLense(!previewLense);
+    };
     const handleSelectLense = (event) => {
       setSelectedOption(event.target.value);
     };
     return(
         <div className='lense-div'>
-          {/* 
-          <Collapse in={SnapchatEmbed}>
-            <SnapchatEmbed/>
-          </Collapse> 
-          */}
             <h2 className='lense-header'>Snapchat Lenses</h2>
             <hr className='snapchat-hr'/>
             <p className='lense-header'>Here are my Snapchat lenses</p>
@@ -70,30 +74,36 @@ const[selectedOption, setSelectedOption] = useState('all');
             <option value="other">Other</option>
           </select>
            <div className='snapchat-lenses'>
-              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={badger} alt="Badger" title='Badger Hat Lense'/>
-                <a className='lense-link' href='72a31dbb-114e-403f-96e4-75791c94b375'>Wisconsin Badgers Hat</a> 
+
+              <span  className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
+                <img className='lenses' src={badger} alt="Badger" title='Badger Hat Lense. (Click me)' onClick={togglePreview}/>
+                <a className='lense-link' href='https://www.snapchat.com/lens/25765196f6f7451284c212f8267d4a16?type=SNAPCODE&metadata=01'>Wisconsin Badgers Hat</a> 
+                {previewLense && <Badgers/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}>
-                <img className='lenses' src={sami} alt='Sami' title='Samis Birthday Crown Lense'/>
-                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3f3b83e64d7a4b1e9b06e9c2e27b4ecc&metadata=01'>Sami's Birthday Crown</a>
-                
+                <img className='lenses' src={sami} alt='Sami' title='Samis Birthday Crown Lense' onClick={togglePreview}/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3f3b83e64d7a4b1e9b06e9c2e27b4ecc&metadata=01'>Sami's Birthday Crown</a>    
+                {previewLense && <Sami/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={hoosier} alt='Hoosier' title='Hoosier Hat Lense'/>
+                <img className='lenses' src={hoosier} alt='Hoosier' title='Hoosier Hat Lense' onClick={togglePreview}/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c87bbf617ea84322abe17eaf7d96be3a&metadata=01'>Indiana Hoosier Hat</a>  
+                {previewLense && <Indiana/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'high-school'?'visible':'hidden'}`}>
-                <img className='lenses' src={prospect} alt="Prospect" title='Prospect High School Hat Lense'/>
+                <img className='lenses' src={prospect} alt="Prospect" title='Prospect High School Hat Lense' onClick={togglePreview}/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a43f71255a884f9198adc6f2a66dfdb7&metadata=01'>Prospect Knights Hat</a>  
+                {previewLense && <Prospect/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={uwec} alt='UWEC' title='University of Wisconsin - Eau Claire Hat Lense'/>
+                <img className='lenses' src={uwec} alt='UWEC' title='University of Wisconsin - Eau Claire Hat Lense' onClick={togglePreview}/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=9e3e2ca11741485cb6d4edc502f24a03&metadata=01'>UWEC Hat</a>
+                {previewLense && <UWEC/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={mizzou} alt='Mizzou' title='University of Missouri Hat Lense'/>
+                <img className='lenses' src={mizzou} alt='Mizzou' title='University of Missouri Hat Lense' onClick={togglePreview}/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7e58cc67ada749fe8000fb3c3c5a9b30&metadata=01'>Mizzou Hat</a>
+                {previewLense && <Mizzou/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
                 <img className='lenses' src={northwestern} alt='Northwestern' title='Northwestern University Hat Lense'/>

@@ -37,7 +37,7 @@ function Project() {
                     <p>Technologies Used:</p>
                     <hr/>
                     <img className="tech-stack" src='https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white' alt='Kotlin Icon'/>
-                    <img className="tech-stack" src='https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=fff' alt='CSS Icon'/>                    
+                    <img className="tech-stack" src='https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=fff' alt='Firebase Icon'/>                    
                     <br/>
                     <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
                 </span> 

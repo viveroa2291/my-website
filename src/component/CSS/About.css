@@ -79,6 +79,7 @@ h2 {
 .job-description {
     font-size: 12px;
 }
+
 @media (max-width: 800px) {
     .introduction {
         text-align: center;
@@ -93,7 +94,7 @@ h2 {
         width: 75%;
     }
     .tech-stack {
-        height: 25px;
+        height: 20px;
         margin-top: 3px;
     }
 }

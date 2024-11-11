@@ -265,7 +265,7 @@ const [previewLense, setPreviewLense] = useState(false);
               </span>   
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'programming'?'visible':'hidden'}`}> 
                 <img className='lenses' src={Java} alt='Java' title='Java Hat Lense'/>
-                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7de0a63072ba4a27a4755cd808a59069&metadata=01'>Java</a>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7de0a63072ba4a27a4755cd808a59069&metadata=01'>Java Hat</a>
               </span>  
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'nfl'?'visible':'hidden'}`}> 
                 <img className='lenses' src={Niners} alt='San Fransisco 49ers' title='49ers Lense'/>

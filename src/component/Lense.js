@@ -48,6 +48,14 @@ import Indiana from './SnapchatEmbeds/indiana';
 import Prospect from './SnapchatEmbeds/prospect';
 import UWEC from './SnapchatEmbeds/uwec';
 import Mizzou from './SnapchatEmbeds/mizzou';
+import Chiefs from '../snapchat-lenses/chiefs.svg';
+import CSS from '../snapchat-lenses/css.svg';
+import Java from '../snapchat-lenses/java.svg';
+import Niners from '../snapchat-lenses/niners.svg';
+import Puppy from '../snapchat-lenses/puppy.svg';
+import Sahyc from '../snapchat-lenses/sahyc.svg';
+import ufc from '../snapchat-lenses/ufc.svg';
+import pepe from '../snapchat-lenses/pepe.svg';
 import './CSS/Snapchat.css';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
@@ -71,6 +79,8 @@ const [previewLense, setPreviewLense] = useState(false);
             <option value="kanye">Kanye</option>
             <option value="brand">Brands</option>
             <option value="country">Countries</option>
+            <option value="nfl">NFL</option>
+            <option value="programming">Programming Languages</option>
             <option value="other">Other</option>
           </select>
            <div className='snapchat-lenses'>
@@ -244,7 +254,39 @@ const [previewLense, setPreviewLense] = useState(false);
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'country'?'visible':'hidden'}`}> 
                 <img className='lenses' src={russia} alt='Russia' title='Russia Hat Lense'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=89ed228af2984555b8bad80b1f7a6185&metadata=01'>Russia Hat</a>
-              </span> 
+              </span>
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'nfl'?'visible':'hidden'}`}> 
+                <img className='lenses' src={Chiefs} alt='Chiefs' title='Kansas City Chiefs Hat Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/lens/6661e11a84c74e32a11eb693640d9710?type=SNAPCODE&metadata=01'>Kansas City Chiefs Hat</a>
+              </span>  
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'programming'?'visible':'hidden'}`}> 
+                <img className='lenses' src={CSS} alt='CSS' title='Cascade Styling Sheets Hat Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=e6c7a2ad882148f39558237c76d1fa27&metadata=01'>Cascade Styling Sheet Hat</a>
+              </span>   
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'programming'?'visible':'hidden'}`}> 
+                <img className='lenses' src={Java} alt='Java' title='Java Hat Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7de0a63072ba4a27a4755cd808a59069&metadata=01'>Java</a>
+              </span>  
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'nfl'?'visible':'hidden'}`}> 
+                <img className='lenses' src={Niners} alt='San Fransisco 49ers' title='49ers Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=51776309eb174146a0f1a8c257dd62ca&metadata=01'>San Francisco 49ers Hat</a>
+              </span>   
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
+                <img className='lenses' src={Puppy} alt='Puppy Eyes' title='Puppy Eyes Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=42a09f0081e54ff985941c8048362859&metadata=01'>Puppy Eyes</a>
+              </span>    
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
+                <img className='lenses' src={Sahyc} alt='Sahyc' title='Sahyc Filter Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=038229e91bb64f82a428d1b09a98b556&metadata=01'>Sahyc Filter Lense</a>
+              </span>      
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'brand'?'visible':'hidden'}`}> 
+                <img className='lenses' src={ufc} alt='UFC' title='UFC Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=5fd9deeec8fe4f8eb8d4e15fc59ba974&metadata=01'>UFC Hat</a>
+              </span>  
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
+                <img className='lenses' src={pepe} alt='UFC' title='Pepe Fist Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=de28144201ba491ab708076790711403&metadata=01'>Pepe's Fist</a>
+              </span>    
           </div> 
         </div>
     )

@@ -2,6 +2,9 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.21.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -42,5 +45,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/plugin-transform-optional-chaining": "^7.16.5",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   }
 }

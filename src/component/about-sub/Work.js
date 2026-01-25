@@ -5,6 +5,13 @@ function Work () {
         <div>
             <hr/>
             <span>
+                <h3 className="job-title">Menards - Full Stack Java Developer</h3>
+                <p className="job-date">December 2024 - Present</p>
+                <ul className="job-description">
+                    <li>Building Full Stack applications working closely with Java, Spring, and Vue.</li>
+                </ul>
+            </span>
+            <span>
                 <h3 className="job-title">Cognixia - Full Stack Java Developer</h3>
                 <p className="job-date">January 2023 - May 2023</p>
                 <ul className="job-description">

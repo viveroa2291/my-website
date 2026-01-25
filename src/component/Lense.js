@@ -48,6 +48,9 @@ import Indiana from './SnapchatEmbeds/indiana';
 import Prospect from './SnapchatEmbeds/prospect';
 import UWEC from './SnapchatEmbeds/uwec';
 import Mizzou from './SnapchatEmbeds/mizzou';
+import Northwestern from './SnapchatEmbeds/northwestern';
+import Niu from './SnapchatEmbeds/niu';
+
 import Chiefs from '../snapchat-lenses/chiefs.svg';
 import CSS from '../snapchat-lenses/css.svg';
 import Java from '../snapchat-lenses/java.svg';
@@ -59,16 +62,6 @@ import pepe from '../snapchat-lenses/pepe.svg';
 import './CSS/Snapchat.css';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
-/*
-const [previewLense, setPreviewLense] = useState(false);
-
-    const togglePreview = () => {
-      setPreviewLense(!previewLense);
-    };
-    const handleSelectLense = (event) => {
-      setSelectedOption(event.target.value);
-    };
-*/
 const [previewLense, setPreviewLense] = useState({});
 
 const togglePreview = (componentName) => {
@@ -97,7 +90,6 @@ const togglePreview = (componentName) => {
             <option value="other">Other</option>
           </select>
            <div className='snapchat-lenses'>
-
               <span  className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
                 <img className='lenses' src={badger} alt="Badger" title='Badger Hat Lense. (Click me)' onClick={() => togglePreview('Badgers')}/>
                 <a className='lense-link' href='https://www.snapchat.com/lens/25765196f6f7451284c212f8267d4a16?type=SNAPCODE&metadata=01'>Wisconsin Badgers Hat</a> 
@@ -129,12 +121,14 @@ const togglePreview = (componentName) => {
                 {previewLense['Mizzou'] && <Mizzou/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={northwestern} alt='Northwestern' title='Northwestern University Hat Lense'/>
+                <img className='lenses' src={northwestern} alt='Northwestern' title='Northwestern University Hat Lense' onClick={() => togglePreview('Northwestern')}/>
                 <a className='lense-link' href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=dc42b76120a4462b86f1118f4ccb44f1&metadata=01">Northwestern Hat</a>
+                {previewLense['Northwestern'] && <Northwestern/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
-                <img className='lenses' src={niu} alt="Northern Illinois University" title='Northern Illinois University Hat Lense'/>
+                <img className='lenses' src={niu} alt="Northern Illinois University" title='Northern Illinois University Hat Lense' onClick={() => togglePreview('Niu')}/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=f069714dfe4d4c0097712310413165f8&metadata=01'>Northern Illinois University Hat</a>
+                {previewLense['Niu'] && <Niu/>}
               </span>
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'college'?'visible':'hidden'}`}>
                 <img className='lenses' src={isu} alt="Illinois State University" title='Illinois State University Hat Lense'/>
@@ -297,7 +291,7 @@ const togglePreview = (componentName) => {
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=5fd9deeec8fe4f8eb8d4e15fc59ba974&metadata=01'>UFC Hat</a>
               </span>  
               <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
-                <img className='lenses' src={pepe} alt='UFC' title='Pepe Fist Lense'/>
+                <img className='lenses' src={pepe} alt='Pepe Lense' title='Pepe Fist Lense'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=de28144201ba491ab708076790711403&metadata=01'>Pepe's Fist Hat</a>
               </span>    
           </div> 

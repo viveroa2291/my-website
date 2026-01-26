@@ -7,6 +7,18 @@ function Project() {
            <h1 className='project-header'>Here are some of my personal projects</h1>
            <div className='project-div'>
                 <span className='project-span'>
+                    <a className='project-h2' title='ThumbZip site' href='https://thumbzip.vercel.app/'>ThumbZip</a>
+                    <hr className='project-hr'/>
+                    <iframe title='My Developer Website' className='projects' src="https://thumbzip.vercel.app/"/>
+                    <p>Technologies Used:</p>
+                    <hr/>                    
+                    <img className="tech-stack" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React-Icon"/>
+                    <img className="tech-stack" src='https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS Icon'/>                    
+                    <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
+                    <br/>
+                    <img className='tech-stack' src='https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' alt="API Icon"/>
+                </span>
+                <span className='project-span'>
                     <a className='project-h2' href='https://viveroa2291.github.io/Tic-Tac-Toe/' title='My tic tac toe app'>Tic Tac Toe</a>
                     <hr className='project-hr'/>
                     <iframe title='tic tac toe game' className='projects' src="https://viveroa2291.github.io/Tic-Tac-Toe/"/>
@@ -17,6 +29,18 @@ function Project() {
                     <img className="tech-stack" src='https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E' alt='Javascript Icon'/>
                     <br/>
                     <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
+                </span>
+                <span className='project-span'>
+                    <a className='project-h2' title='My Linktree site' href='https://adans-linktree.vercel.app/'>Personalized LinkTree Site</a>
+                    <hr className='project-hr'/>
+                    <iframe title='My Developer Website' className='projects' src="https://adans-linktree.vercel.app/"/>
+                    <p>Technologies Used:</p>
+                    <hr/>                    
+                    <img className="tech-stack" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React-Icon"/>
+                    <img className="tech-stack" src='https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS Icon'/>                    
+                    <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
+                    <br/>
+                    <img className='tech-stack' src='https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' alt="API Icon"/>
                 </span>
                 <span className='project-span'>
                     <a className='project-h2' href='https://viveroa2291.github.io/Cancun/' title='Cancun Mexican Grill website itself.'>Cancun Mexican Grill</a>
@@ -52,18 +76,6 @@ function Project() {
                     <img className="tech-stack" src='https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E' alt='Javascript Icon'/>
                     <br/>
                     <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
-                </span>
-                <span className='project-span'>
-                    <a className='project-h2' title='My Linktree site' href='https://adans-linktree.vercel.app/'>Personalized LinkTree Site</a>
-                    <hr className='project-hr'/>
-                    <iframe title='My Developer Website' className='projects' src="https://adans-linktree.vercel.app/"/>
-                    <p>Technologies Used:</p>
-                    <hr/>                    
-                    <img className="tech-stack" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React-Icon"/>
-                    <img className="tech-stack" src='https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS Icon'/>                    
-                    <img className="tech-stack" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git-Icon"/>
-                    <br/>
-                    <img className='tech-stack' src='https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' alt="API Icon"/>
                 </span>
            </div>
         </div>

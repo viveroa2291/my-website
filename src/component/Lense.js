@@ -59,6 +59,9 @@ import Puppy from '../snapchat-lenses/puppy.svg';
 import Sahyc from '../snapchat-lenses/sahyc.svg';
 import ufc from '../snapchat-lenses/ufc.svg';
 import pepe from '../snapchat-lenses/pepe.svg';
+import amazon from '../snapchat-lenses/amazon.svg';
+import menards from '../snapchat-lenses/menards.svg';
+
 import './CSS/Snapchat.css';
 function Lense (){
 const[selectedOption, setSelectedOption] = useState('all');
@@ -294,6 +297,14 @@ const togglePreview = (componentName) => {
                 <img className='lenses' src={pepe} alt='Pepe Lense' title='Pepe Fist Lense'/>
                 <a className='lense-link' href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=de28144201ba491ab708076790711403&metadata=01'>Pepe's Fist Hat</a>
               </span>    
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
+                <img className='lenses' src={amazon} alt='Amazon Lense' title='Amazon Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/lens/2c97741d7b1e4e6ebe569cd31c193ac6?locale=en-US%2Cen%3Bq%3D0.9&metadata=01&type=SNAPCODE'>Amazon Hat</a>
+              </span>    
+              <span className={`snap-code ${selectedOption === 'all' || selectedOption === 'other'?'visible':'hidden'}`}> 
+                <img className='lenses' src={menards} alt='Menard Lense' title='Menards Lense'/>
+                <a className='lense-link' href='https://www.snapchat.com/lens/adf776cfa7774ba699a4b081cbe3df1e?locale=en-US%2Cen%3Bq%3D0.9&metadata=01&type=SNAPCODE'>Menards Hat</a>
+              </span> 
           </div> 
         </div>
     )
